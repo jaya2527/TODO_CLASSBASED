@@ -1,0 +1,147 @@
+
+.error {
+    color: #FF0000;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    text-align: justify;
+
+}
+
+.task {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+.task p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions form {
+    display: inline-block;
+}
+
+.actions form input[type="text"] {
+    width: 150px;
+    margin-right: 5px;
+}
+
+.del-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.del-btn:hover {
+    background-color: #c82333;
+}
+
+/*    new stylesheeta here for checkbox*/
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/*.container input:checked ~ .checkmark:after {*/
+/*    display: block;*/
+/*}*/
+
+/*.container .checkmark:after {*/
+/*    left: 9px;*/
+/*    top: 5px;*/
+/*    width: 5px;*/
+/*    height: 10px;*/
+/*    border: solid white;*/
+/*    border-width: 0 3px 3px 0;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+.task-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.task-width {
+    width: 49%;
+    text-align: center;
+    padding: 5px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    display: inline-list-item;
+}
